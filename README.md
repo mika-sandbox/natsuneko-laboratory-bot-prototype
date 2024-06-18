@@ -1,8 +1,6 @@
-```
-npm install
-npm run dev
-```
+# Natsuneko Laboratory GitHub Bot
 
-```
-npm run deploy
-```
+GitHub Apps (Bot) that has the following feature(s):
+
+* Automatically create a new pull request when pushing to branch
+    * ref: https://github.com/mika-sandbox/github-bot-account-tests/pull/13
