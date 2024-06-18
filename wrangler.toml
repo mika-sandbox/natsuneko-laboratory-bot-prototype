@@ -1,7 +1,40 @@
-name = "natsuneko-laboratory-bot"
 compatibility_date = "2023-12-01"
+name = "natsuneko-laboratory-bot"
+node_compat = true
 
-# [vars]
+[vars]
+GITHUB_APP_ID = "924195"
+GITHUB_PRIVATE_KEY = """
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDqinQmXxJ2W6Li
+Y+BbEwIztwISRnyvkQscc20L9fSxBG5eklX1U24RaM+cpoSv96iTs2cG6/bBcaNJ
+RwczgTqpk+Q8RKsehI/qsaSzGoe+6Ypmf8UH7iU0446RN4/dgqGext/MQCLAdejA
+UV8f/k82GobiBsiWCWAzAsy/VifdwzbfXMUVgA9pOZrkOQoTVJbEfQ+mbjbxB/fh
+SBaTQrZ8h3vSfRJUblBSKoJMiicZi3yXv8QdUGm3dYNz0iHCYk8j5Uyj+VpX+QWs
++cqlhIRueHYm7VCOW3mNsddrTM5DJwIxWYm2kA965pP68w9vNH05xUrMjr9WbpZp
+VYJMewdnAgMBAAECggEBAN9On7QBBRUHvpgKPAy6lngioKhB0GlgkdGu3H5s2WLJ
+M0R707fWjY+p2THvIZphFHI8d7WRaMlZpvwX0nVpby8SDlaLktlloZj1NjkI44IT
+3aAlurUIOwiWOKFu410mCTehZmeUEQJpwQeK8iUF/ukmbJI7nzOrDZrD6amrIB30
+8zGupucVIMwqQK3pGPLFEmzGdTWbmy+AWhUymCtU1hUpuUNEnD7YP8CkM/LM4J3L
+3SJfJst37WcH6vVQO9+VwuxoPDQ3IvIx9ehC+kZ0GFXgvpZyi6zhLlsV47P3k39H
+MGoJKQgDQa83zWG0nZeyZrdy9sIhR0IdIOCf9+0KfvECgYEA/JcynDm441z18OSM
+VggmZfwdVjPPGcbBhUw/mz9MmaXRkneXrmmec5pvibdN3wkT0nc67Fa+dXB7zUP0
+40CxyGAI5IzmlDcua1AzNXKKRdgQKoaix6q4pTpgEQAtv6kJKVajXYr2Fmo5EtaV
+1yl0BQQ5/QO7jLkESeIsvr9MsbUCgYEA7bTjAh0eDzeRbE9XeGpnZt+PCWi0wamK
+7nX2+VrZizvqq6NkJjC4SR+o90pkBclfu9ugEmBDKZeJ6+T3/0CB5rwRvTgegLzj
+FmLPri29r3o3qxljzowQieKTi9c69SMeg1MUB5X7sTEypIaVKsPeZJc22EuRzaI2
+u3D1zl7JNisCgYAcH7WZ4W9tmU8k+D2L4rJrzotxqqkXhKLNdbTrUzvzK5xPA5PW
+7pme44YhvlAkUj1rxKzB3dKs/s46B6P/nZdt6Qt0bx/JRu+bMT3SaKNurWT3ZzA+
+rQqMExjZK7zsRyTm/meIJc3Kpx8dstjSMSJi4JqYSk8alwscMtuqjWA7tQKBgGtf
+MMdMpb5T6GFXOXiP/6MNSowCetubnMD4EhYyfl+RMgBTrrI9gZCuN2F0fdfLTW4K
+17RVPSE1bTxb0dW/qq2xuAWTqtuV9rGu8oaH7M2t1CV6M4Yh6HqQGPuqvdvrACZr
+yXlfuzAfu/NrQ0fs77DaSRDMmdCb/EMQ1Edis1q/AoGBAL2HyhHs2jIP1y1UIT0E
+HD7w0shP6O0qDIYNBadge4PHEFPZmlm7UQTaXcKX6f5xkaqeJhmPeuWaQic30a6H
+vQjFlQZs+mZEKztcUP2iPmBNctNN3qNtADNYQfgRShvPWF4JUpMqB3xDiivKv/Zd
+H1bHt0W5J+HOsL5XRepGnkBd
+-----END PRIVATE KEY-----
+"""
+GITHUB_WEBHOOK_SECRET = "NiKVuIOuEaOb4hv40YEvql3nQ8EFINj2"
 # MY_VAR = "my-variable"
 
 # [[kv_namespaces]]
